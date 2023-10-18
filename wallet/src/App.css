@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  width: 350px;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background: #e8f3f3;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+  align-items: center;
+  background: #fafafa;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.selectWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.selectChain {
+  width: 60%;
+}
+
+
+.homeTitle {
+  margin-bottom: 0;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+/* content */
+.content {
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.mnemonic {
+  display: flex;
+  align-items: center;
+  color: #fac534;
+  background: #fffce3;
+  padding: 5px 10px;
+  text-align: left;
+  border: 1px solid #fac534;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.mnemonic > div {
+  margin-left: 10px;
+}
+
+.seedContainer {
+  min-height: 100px;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.logoutButton{
+  cursor: pointer;
+  text-align: right;
+}
+
+.nftImage {
+  max-width: 100%;
+  width: 260px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.sendRow {
+  display: flex;
+  align-items: center;
+}
